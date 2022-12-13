@@ -1,0 +1,92 @@
+.bgimg,.bgimg-nutrition { 
+    position:relative; 
+    width: 100%;
+    height: 550px;
+
+}
+.bgimg img ,.bgimg-nutrition img{
+    position:relative;
+    z-index:0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.overlaytext,.overlaytext-nutrition {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    /*width: 100%;
+    height: 100%;*/
+    /* display: flex;
+    justify-content: flex-end; */
+    align-items: center;
+    
+    width:40%;
+    margin:2%;
+}
+.overlaytext h3,h4,h1{
+
+    margin:5%;
+    font-size: 20px;
+    color: white;
+}
+
+.overlaytext h1{
+    color:#30336b;
+}
+
+.overlaytext h3{
+    color:#130f40;
+}
+
+.overlaytext h4{
+    color:#535c68;
+}
+
+.midtext{
+    background-color: #30336b;
+    margin-bottom: 2%;
+}
+.midtext p{
+    color:white;
+    padding: 2%;
+}
+
+.boxes{
+    width: 90%;
+    height: 350px;
+    margin: 5% auto;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-around;
+    background-color:black;
+    padding: 3%;
+}
+.boxes p,.price-boost p{
+color: white;
+padding: 3%;
+}
+
+.btn-schedule{
+    padding: 1%;
+
+}
+
+.overlaytext-nutrition h3,h4,h1,a,.boxes h3,.price-boost h3,h5{
+
+    margin:5%;
+    font-size: 20px;
+    color:#6D214F;
+}
+
+.price-boost{
+    width: 90%;
+    height: 150px;
+    margin: 5% auto;
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-around;
+    background-color:black;
+    padding: 3%;
+}

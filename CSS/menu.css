@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+    width: 98%;
+    height: 64px;
+    margin: 5px auto;
+    display: flex;
+   
+
+}
+.menu .logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.menu .logo img{
+    height: 100%;
+    border-radius: 15px;
+}
+.logo .text{
+    height: 100%;
+    width: auto;
+}
+.menu .logo span{
+    font-family: 'Rampart One', cursive;
+    font-size: 40px;
+    color: #8286BC;
+    letter-spacing: 4px;
+    margin-left: 10px;
+  
+}
+
+.menu .logo .small{
+    font-size: 18px;
+    letter-spacing:1px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.menu .main{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu .main a{
+    text-decoration: none;
+    font-size: 16px;
+    color: gray;
+}
+.menu .login{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu .login button{
+    font-size: 16px;
+    width: auto;
+   padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white ;
+    border: 1px solid #8286BC;
+    border-radius: 10px;
+    color: gray;
+}
+.menu .login button img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%); 
+    
+}
